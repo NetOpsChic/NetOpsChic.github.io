@@ -1,0 +1,97 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Base Body Styles */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    color: #000;
+    line-height: 1.6;
+  }
+  
+  /* Fixed Navigation */
+  header {
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px 20px;
+    z-index: 1000;
+    border-bottom: 1px solid #000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #555;
+  }
+  
+  /* Hero Section Styles */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 5rem;  /* This makes the heading extra large */
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .hero-content h2 {
+    font-size: 2rem;  /* Adjust this value as needed for your subheading */
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #ccc; /* Optional: gives a subtle difference from the main heading */
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+    
+  /* Content Sections */
+  .content-section {
+    padding: 100px 20px 60px;
+    text-align: center;
+  }
+  
+  .content-section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #000;
+  }
+  
